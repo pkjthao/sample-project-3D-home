@@ -13,7 +13,7 @@ html {
     height: 100vh;
     display: flex;
     align-items: center;
-    background-color: #030a1b;
+    background-color: #b4cfb7;
     perspective: 40rem;
 }
 
@@ -33,18 +33,18 @@ html {
 .menu-item {
     width: 20rem;
     height: 15rem;
-    background-color: #5588dd;
+    background-color: #415d43;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
     cursor: pointer;
-    box-shadow: 0 0 2rem rgb(100, 100, 255, 0.4);
+    box-shadow: 0 0 2rem rgba(34, 73, 49, 0.4);
 }
 
 .menu-item:hover {
-    background-color: #ccccff;
-    box-shadow: rgba(100, 100, 255, 0.6);
+    background-color: #41dec7;
+    box-shadow: rgba(34, 73, 49, 0.6);
 }
 
 .menu-item:not(.center-item) {
@@ -78,10 +78,10 @@ html {
 
 .menu-item i {
     font-size: 7rem;
-    color: #222;
+    color: #e9f0ec;
     transition: color .5s;
 }
 
 .menu-item:hover i {
-    color: #6464ff;
+    color: #322328;
 }
