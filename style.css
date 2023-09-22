@@ -37,7 +37,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 1rem;
+    border-radius: 50%;
     cursor: pointer;
     box-shadow: 0 0 2rem rgba(34, 73, 49, 0.4);
 }
